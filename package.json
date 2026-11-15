@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "publicar": "npm run build && gh-pages -d dist --nojekyll -m \"Publica nova versão\" -u \"Minhoca <320777802+marcelokielwagen@users.noreply.github.com>\""
+    "publicar": "npm run build && gh-pages -d dist --nojekyll --dotfiles -m \"Publica nova versão\" -u \"Minhoca <320777802+marcelokielwagen@users.noreply.github.com>\""
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.8.0",
